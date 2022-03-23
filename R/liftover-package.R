@@ -1,0 +1,1 @@
+#' @useDynLib liftover, .registration = TRUE

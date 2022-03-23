@@ -9,6 +9,18 @@
 
 namespace liftover {
 
+struct smallMapped {
+  // holds where a liftover region maps across to
+  long start;
+  long stop;
+  int query_id_id;
+  bool fwd_strand;
+  long size;
+};
+
+
+
+
 struct Mapped {
   // holds where a liftover region maps across to
   long start;

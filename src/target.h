@@ -12,6 +12,13 @@ namespace liftover {
 
 typedef IntervalTree<long, Mapped> Tree;
 
+struct smallMatch{
+  int contig_id;
+  long pos;
+  bool fwd_strand;
+
+};
+
 struct Match {
   // hold info for a matched site after a successful query
   std::string contig;
